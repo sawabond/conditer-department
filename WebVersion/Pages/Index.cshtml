@@ -1,0 +1,74 @@
+﻿@page
+@model IndexModel
+@{
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;500;700&family=Red+Hat+Display:wght@500;700;900&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://snipp.ru/cdn/jqueryui/1.12.1/jquery-ui.min.css">
+    <link rel="stylesheet" href="./fonts/font-awesome-4.7.0/css/font-awesome.min.css">
+
+    <title>ConditeShop</title>
+</head>
+<body>
+    <div class="container">
+        <div class="shop">
+            <div class="shop__content">
+                <h1>Більше, ніж кондитерська.</h1>
+
+                <div class="shop__descr">
+                    <p>Протягом довгих років ми створюємо багато різних кондитерських виробів, для того, щоб ви могли насолоджуватися чудовими десертами у кругу близьких та рідних вам людей. </p>
+                </div>
+            </div>
+
+            <div class="container-form">
+                <div class="container-form-text">
+                    <h1>Підписатися на розсилку</h1>
+                </div>
+                <form action="#" class="form">
+                    <div class="input">
+                        <input type="text" placeholder="Пошта" name="email" required class="textbox">
+                        <span class="focus"></span>
+                        <span class="input-symbol">
+                            <i class="fa fa-envelope" aria-hidden="true"></i>
+                        </span>
+                    </div>
+                    <div class="input">
+                        <input type="password" placeholder="Ім`я" name="psw" required class="textbox">
+                        <span class="focus"></span>
+                        <span class="input-symbol">
+                            <i class="fa fa-user" aria-hidden="true"></i>
+                        </span>
+                    </div>
+                    <div class="input">
+                        <input type="password" placeholder="Прізвище" name="psw-repeat" required class="textbox">
+                        <span class="focus"></span>
+                        <span class="input-symbol">
+                            <i class="fa fa-user-o" aria-hidden="true"></i>
+                        </span>
+                    </div>
+                    <div class="input">
+                        <input type="password" placeholder="Номер телефону" name="psw-repeat" required class="textbox">
+                        <span class="focus"></span>
+                        <span class="input-symbol">
+                            <i class="fa fa-phone" aria-hidden="true"></i>
+                        </span>
+                    </div>
+                    <div class="btn">
+                        <button type="submit" class="registerbtn">Відправити</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="script.js"></script>
+</body>
+</html>

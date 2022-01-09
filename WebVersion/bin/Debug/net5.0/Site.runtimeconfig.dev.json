@@ -1,0 +1,8 @@
+{
+  "runtimeOptions": {
+    "additionalProbingPaths": [
+      "C:\\Users\\ddo20\\.dotnet\\store\\|arch|\\|tfm|",
+      "C:\\Users\\ddo20\\.nuget\\packages"
+    ]
+  }
+}
